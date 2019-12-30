@@ -4,14 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
     <title>카카오톡</title>
   </head>
   <body>
-    <input
-      type="button"
-      value="로그인"
-      class="navyBtn"
-      onClick="location.href='chat.html'"
-    />
+    <div class="status-bar">
+      <div class="status__columb">
+        <span class="status__icon"><i class="fas fa-bell-slash"></i></span>
+        <span class="status__icon"><i class="fas fa-bars"></i></span>
+      </div>
+      <div class="status__columb">
+        <span class="status__icon"><i class="fas fa-window-minimize"></i></span>
+        <span class="status__icon"><i class="far fa-window-maximize"></i></span>
+        <span class="status__icon"><i class="fas fa-times"></i></span>
+      </div>
+    </div>
+    <main class="index-container">
+      <div class="login-window">
+        <div class="avartar">
+          <img
+            src="../Again.kakao/img/lsm1.jpg"
+            alt="상민"
+            class="main-avartar"
+          />
+          <span class="id-email">dmsqlc404@naver.com</span>
+          <span class="login-screen">잠금모드 상태 입니다.</span>
+        </div>
+      </div>
+
+      <input
+        class="login-btn"
+        type="button"
+        value="로그인"
+        class="navyBtn"
+        onClick="location.href='logindelete.html'"
+      />
+    </main>
   </body>
 </html>
