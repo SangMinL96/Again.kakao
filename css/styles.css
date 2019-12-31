@@ -1,0 +1,21 @@
+@import "../css/reset.css";
+@import "../css/index.css";
+@import "../css/status-bar.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+@import "chat.css";
+@import "navi.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
