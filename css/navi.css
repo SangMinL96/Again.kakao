@@ -1,0 +1,11 @@
+.navi .navi-btn {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+  padding: 20px 60px;
+  border-top: 1px solid silver;
+}
