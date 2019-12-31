@@ -1,0 +1,10 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 60%;
+  font-size: 1.14rem;
+}
+.status-bar .status__icon {
+  font-weight: 700;
+}
