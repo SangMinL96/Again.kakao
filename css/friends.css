@@ -1,0 +1,26 @@
+.friends {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.friends .my-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.birthday-count {
+  margin-left: 10px;
+  opacity: 70%;
+  margin-bottom: 5px;
+}
+.friends__friends .friends__music-content {
+  border: 1px solid green;
+  padding: 5px 12px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.friends__music-content .friends__music {
+  opacity: 80%;
+  font-size: 1rem;
+}
