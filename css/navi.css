@@ -8,4 +8,22 @@
   background-color: wheat;
   padding: 20px 60px;
   border-top: 1px solid silver;
+  font-size: 1.35rem;
+}
+.navi-list {
+  position: relative;
+}
+.navi-list .navi-badge {
+  display: flex;
+  position: absolute;
+  background-color: tomato;
+  left: 12px;
+  bottom: 12px;
+  border-radius: 50%;
+  font-size: 0.65rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  width: 17px;
+  height: 17px;
 }
