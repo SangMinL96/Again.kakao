@@ -4,7 +4,7 @@
   justify-content: space-between;
   opacity: 60%;
   font-size: 1.14rem;
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 .status-bar .status__icon {
   font-weight: 700;
