@@ -1,0 +1,84 @@
+.chat .chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.chat-container .my-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+.chat-container .my-screen__columb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-screen__content .my-title {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.my-screen__content .my-mail {
+  margin-left: 10px;
+  font-size: 1rem;
+  opacity: 70%;
+}
+.my-screen .my-screen__icon {
+  font-size: 30px;
+}
+.kakaopay {
+  display: flex;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: gray;
+  border-radius: 10px;
+  opacity: 90%;
+  font-size: 1.15rem;
+}
+.kakaopay__columb {
+  display: flex;
+  align-items: center;
+}
+.kakaopay-img {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+.kakaopay__send {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid black;
+}
+.emoticon1 {
+  margin-top: 70px;
+}
+.emoticon2 {
+  margin-top: 40px;
+}
+.emoticon1 .emoticon__icon,
+.emoticon2 .emoticon__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.emoticon1 .emoticon-img,
+.emoticon2 .emoticon-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.more-ad .ad-img {
+  width: 500px;
+  height: 260px;
+  margin-top: 120px;
+}
