@@ -1,6 +1,6 @@
 .navi .navi-btn {
   position: fixed;
-  width: 100%;
+  width: 500px;
   bottom: 0px;
   display: flex;
   justify-content: space-between;
