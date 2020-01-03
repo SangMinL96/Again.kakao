@@ -5,13 +5,14 @@
 @import "chat.css";
 @import "navi.css";
 @import "friends.css";
+@import "more.css";
 * {
   box-sizing: border-box;
 }
 
 body {
   align-items: center;
-  background-color: #ffff66;
+  background-color: whitesmoke;
   padding-top: 10px;
   color: #020202;
   font-family: "Open Sans", sans-serif -apple-system, BlinkMacSystemFont,
@@ -36,4 +37,11 @@ a {
   width: 100px;
   height: 100px;
   border-radius: 28px;
+}
+.wallpaper {
+  width: 500px;
+  margin: 0 auto;
+  background-color: yellow;
+  min-height: 100vh;
+  background-size: contain;
 }
