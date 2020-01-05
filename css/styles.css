@@ -6,6 +6,7 @@
 @import "navi.css";
 @import "friends.css";
 @import "more.css";
+@import "chating.css";
 * {
   box-sizing: border-box;
 }
