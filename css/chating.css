@@ -1,0 +1,116 @@
+.chating-wallpaper {
+  width: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  min-height: 100vh;
+
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.header-wallpaper {
+  width: 500px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(216, 215, 215);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.header .chating-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.chating-title i {
+  margin-right: 10px;
+}
+
+.chating .chating__list {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.chating__chating .send-title {
+  display: block;
+
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.send-chat {
+  padding: 5px 10px;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.chating .my-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.chating .my-chatlist {
+  padding: 7px 10px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
+  background-color: white;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.chating-container .send-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+.before__chating-kbd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 500px;
+  bottom: 0px;
+
+  /*box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);*/
+}
+.kbd__text {
+  bottom: 0px;
+  width: 500px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 20px 50px;
+  border: none;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.kbd__left {
+  position: absolute;
+  margin-left: 15px;
+}
+.kbd__right {
+  position: absolute;
+  right: 15px;
+}
+.kbd__text:focus {
+  outline: none;
+}
+.kbd__text:focus ~ .kbd-icon {
+  opacity: 0%;
+}
+.kbd-icon {
+  font-size: 18px;
+  transition: opacity 0.3s ease-in-out;
+}
