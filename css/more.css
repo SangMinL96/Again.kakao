@@ -39,10 +39,12 @@
   justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: gray;
+  background-color: rgba(168, 168, 168, 0.685);
   border-radius: 10px;
   opacity: 90%;
   font-size: 1.15rem;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.788),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 .kakaopay__columb {
   display: flex;
