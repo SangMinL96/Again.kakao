@@ -1,18 +1,18 @@
 .chating-wallpaper {
   width: 500px;
   margin: 0 auto;
-  background-color: whitesmoke;
-  min-height: 100vh;
+  background-color: rgb(228, 227, 227);
+  min-height: 200vh;
 
   border: 1px solid rgb(255, 255, 255);
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  box-shadow: 0 13px 27px -5px rgb(50, 50, 93),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 .header-wallpaper {
   width: 500px;
   margin: 0 auto;
-  border-bottom: 1px solid rgb(216, 215, 215);
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  border-bottom: 1px solid rgb(184, 184, 184);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.829),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 .header .chating-header {
@@ -95,6 +95,8 @@
   font-size: 14px;
   align-items: center;
   justify-content: center;
+  transition: width 0.5s ease-in-out, border-radius 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
 }
 .kbd__left {
   position: absolute;
@@ -106,11 +108,60 @@
 }
 .kbd__text:focus {
   outline: none;
+  width: 80%;
+  border-radius: 50px;
+  transform: translateY(-100px);
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  animation: float 2s ease-in-out infinite forwards;
 }
+
 .kbd__text:focus ~ .kbd-icon {
   opacity: 0%;
 }
 .kbd-icon {
   font-size: 18px;
   transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes cahtAnimation {
+  from {
+    opacity: 0%;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 100%;
+    transform: none;
+  }
+}
+.chating__chat {
+  animation: cahtAnimation 0.5s ease-in forwards;
+}
+@keyframes mycahtAnimation {
+  from {
+    opacity: 0%;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 100%;
+    transform: none;
+  }
+}
+.my-chat {
+  animation: mycahtAnimation 0.5s ease-in-out forwards;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 13px 27px -5px rgb(23, 23, 78),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+  50% {
+    box-shadow: 0 13px 27px -5px rgb(131, 28, 134),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+  100% {
+    box-shadow: 0 13px 27px -5px rgb(38, 141, 56),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
 }
