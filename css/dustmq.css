@@ -1,0 +1,11 @@
+input {
+  width: 100px;
+  height: 100px;
+  transition: width 3s linear;
+  transition: 3s linear;
+}
+
+input:focus {
+  width: 100px;
+  transform: scale(3);
+}

@@ -2,7 +2,7 @@
   width: 500px;
   margin: 0 auto;
   background-color: rgb(228, 227, 227);
-  min-height: 200vh;
+  min-height: 100vh;
 
   border: 1px solid rgb(255, 255, 255);
   box-shadow: 0 13px 27px -5px rgb(50, 50, 93),
@@ -164,4 +164,15 @@
     box-shadow: 0 13px 27px -5px rgb(38, 141, 56),
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   }
+}
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.send-img {
+  animation: spin 1s linear 3;
 }
